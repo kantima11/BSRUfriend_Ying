@@ -108,6 +108,7 @@ public class ServiceActivity extends FragmentActivity implements OnMapReadyCallb
                     R.drawable.kon48,
                     R.drawable.nobita48,
                     R.drawable.rat48
+
             };
             GetUser getUser = new GetUser(ServiceActivity.this);
             getUser.execute(urlPHP);
